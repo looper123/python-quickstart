@@ -28,15 +28,10 @@ import uuid
 from urllib import request
 from urllib.request import urlretrieve
 
-import re
-import scrapy
-from os import system
-from scrapy import pipelines
+import os
 from selenium import webdriver
-
 # selenium 小用例
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.wait import WebDriverWait
 
 
 class quick_start:
@@ -278,7 +273,10 @@ class fetch_from_baidu():
                         with open(whole_path, 'wb') as f:
                             f.write(cat_img)
                     except  Exception as e:
+                        # 处理无效、超时链接
                         print("下载出错"+str(e))
+                        #删除建立的临时文件
+                        os.remove(whole_path)
                         continue
             # 记录下载列表长度 下次从结束的地方下载
             imgs_download_len = imgs_downloads.__len__()

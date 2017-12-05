@@ -3463,3 +3463,107 @@ JavaScript warning: http://image.baidu.com/search/index?tn=baiduimage&ipn=r&ct=2
 1511951640930	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1511951641002	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://image.baidu.com/"
 1511951641240	Marionette	DEBUG	Received DOM event "pageshow" for "http://image.baidu.com/"
+1512455582960	geckodriver	INFO	geckodriver 0.19.1
+1512455582970	geckodriver	INFO	Listening on 127.0.0.1:55527
+1512455583540	mozrunner::runner	INFO	Running command: "H:\\softwares\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.eV0LJzyGqhOo"
+1512455584125	Marionette	INFO	Enabled via --marionette
+[Parent 10012, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10280, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512455585173	Marionette	INFO	Listening on port 55535
+1512455585700	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455585773	Marionette	DEBUG	Register listener.js for window 4294967297
+1512455585783	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455585866	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455585867	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512455586310	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.hua.com/flower/?r=0&pg=2"
+1512455587734	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.hua.com/flower/?r=0&pg=2"
+1512455587903	geckodriver	INFO	geckodriver 0.19.1
+1512455587912	geckodriver	INFO	Listening on 127.0.0.1:55589
+1512455588473	mozrunner::runner	INFO	Running command: "H:\\softwares\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.R96xiA44vQKy"
+1512455588863	Marionette	INFO	Enabled via --marionette
+[Child 2408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512455589866	Marionette	INFO	Listening on port 55605
+1512455590602	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455590676	Marionette	DEBUG	Register listener.js for window 4294967297
+1512455590684	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455590736	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455590736	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512455590826	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://image.baidu.com/"
+1512455590989	Marionette	DEBUG	Received DOM event "pageshow" for "http://image.baidu.com/"
+1512455612652	geckodriver	INFO	geckodriver 0.19.1
+1512455612657	geckodriver	INFO	Listening on 127.0.0.1:55755
+1512455613225	mozrunner::runner	INFO	Running command: "H:\\softwares\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.CQHN8ZKuL0Fa"
+1512455613604	Marionette	INFO	Enabled via --marionette
+[Child 6096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512455614566	Marionette	INFO	Listening on port 55759
+1512455615353	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455615441	Marionette	DEBUG	Register listener.js for window 4294967297
+1512455615449	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455615513	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455615513	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512455615908	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.hua.com/flower/?r=0&pg=2"
+1512455617325	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.hua.com/flower/?r=0&pg=2"
+1512455617364	geckodriver	INFO	geckodriver 0.19.1
+1512455617371	geckodriver	INFO	Listening on 127.0.0.1:55817
+1512455617908	mozrunner::runner	INFO	Running command: "H:\\softwares\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.HKsz8Y1V1X0J"
+1512455618293	Marionette	INFO	Enabled via --marionette
+1512455619295	Marionette	INFO	Listening on port 55833
+1512455620026	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455620068	Marionette	DEBUG	Register listener.js for window 4294967297
+1512455620075	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455620122	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455620122	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512455620200	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://image.baidu.com/"
+1512455620461	Marionette	DEBUG	Received DOM event "pageshow" for "http://image.baidu.com/"
+1512455669599	geckodriver	INFO	geckodriver 0.19.1
+1512455669605	geckodriver	INFO	Listening on 127.0.0.1:56010
+1512455670169	mozrunner::runner	INFO	Running command: "H:\\softwares\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.33Zj3eSPTpkL"
+1512455670548	Marionette	INFO	Enabled via --marionette
+[Child 17580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512455671523	Marionette	INFO	Listening on port 56014
+1512455672297	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455672384	Marionette	DEBUG	Register listener.js for window 4294967297
+1512455672391	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455672454	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455672454	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512455672801	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.hua.com/flower/?r=0&pg=2"
+1512455674253	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.hua.com/flower/?r=0&pg=2"
+1512455674276	geckodriver	INFO	geckodriver 0.19.1
+1512455674281	geckodriver	INFO	Listening on 127.0.0.1:56074
+1512455674817	mozrunner::runner	INFO	Running command: "H:\\softwares\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.MrkEAiyHxXiM"
+1512455675208	Marionette	INFO	Enabled via --marionette
+1512455676271	Marionette	INFO	Listening on port 56085
+1512455676940	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455677014	Marionette	DEBUG	Register listener.js for window 4294967297
+1512455677024	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455677075	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455677075	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512455677208	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://image.baidu.com/"
+1512455677442	Marionette	DEBUG	Received DOM event "pageshow" for "http://image.baidu.com/"
+1512455789715	geckodriver	INFO	geckodriver 0.19.1
+1512455789719	geckodriver	INFO	Listening on 127.0.0.1:56734
+1512455790283	mozrunner::runner	INFO	Running command: "H:\\softwares\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.K7xslP2s6IwF"
+1512455790724	Marionette	INFO	Enabled via --marionette
+[Child 17496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512455791779	Marionette	INFO	Listening on port 56738
+1512455792411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455792466	Marionette	DEBUG	Register listener.js for window 4294967297
+1512455792478	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455792625	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455792625	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512455792950	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.hua.com/flower/?r=0&pg=2"
+1512455794665	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.hua.com/flower/?r=0&pg=2"
+1512455794725	geckodriver	INFO	geckodriver 0.19.1
+1512455794732	geckodriver	INFO	Listening on 127.0.0.1:56795
+1512455795289	mozrunner::runner	INFO	Running command: "H:\\softwares\\Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Administrator\\AppData\\Local\\Temp\\rust_mozprofile.mVY72q1ZfwRj"
+1512455795670	Marionette	INFO	Enabled via --marionette
+1512455796678	Marionette	INFO	Listening on port 56811
+1512455797418	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512455797494	Marionette	DEBUG	Register listener.js for window 4294967297
+1512455797503	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512455797548	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512455797548	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512455797642	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://image.baidu.com/"
+1512455798054	Marionette	DEBUG	Received DOM event "pageshow" for "http://image.baidu.com/"
