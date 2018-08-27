@@ -52,7 +52,7 @@ class fetch_from_baidu():
             if imgs_downloads:
                 for pic in imgs_downloads[imgs_download_len:]:
                     # 目录
-                    base_dir = "F:\\imgs"
+                    base_dir = "D:\\imgs"
                     file_name = str(uuid.uuid1()) + pic[pic.rfind("."):]
                     whole_path = base_dir + "\\" + file_name
                     open(whole_path, "wb")
