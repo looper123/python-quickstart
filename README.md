@@ -35,7 +35,9 @@
 
 - 验证 python -> import django -> print(django.get_version()) 
 
-![截图](./png/django和python版本对应图.png)
+- [django和python对应版本](./png/django和python版本对应图.png)
+
+
     
 
 
