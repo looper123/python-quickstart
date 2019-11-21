@@ -26,16 +26,8 @@
 
 - python里使用R和r对字符串进行转意
 
-- 
 
-### python流行框架Django
-- [官网地址](https://docs.djangoproject.com/en/2.2/intro/install/)
 
-- 安装 pip3 install django
-
-- 验证 python -> import django -> print(django.get_version()) 
-
-- [django和python对应版本](./png/django和python版本对应图.png)
 
 
     
