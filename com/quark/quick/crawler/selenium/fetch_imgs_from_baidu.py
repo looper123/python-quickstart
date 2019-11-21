@@ -1,10 +1,9 @@
+import os
 import time
 import urllib
 import uuid
 from urllib import request
-from urllib.request import urlretrieve
 
-import os
 from selenium import webdriver
 # selenium 小用例
 from selenium.webdriver.common.keys import Keys
@@ -60,18 +59,19 @@ class fetch_from_baidu():
                     try:
                         # 自带的下载方法 超时时间太长  （不推荐）
                         # urlretrieve(my_url, whole_path)
-                        response = urllib.request.urlopen(my_url,timeout=2)
+                        response = urllib.request.urlopen(my_url, timeout=2)
                         cat_img = response.read()
                         with open(whole_path, 'wb') as f:
                             f.write(cat_img)
                     except  Exception as e:
                         # 处理无效、超时链接
-                        print("下载出错"+str(e))
-                        #删除建立的临时文件
+                        print("下载出错" + str(e))
+                        # 删除建立的临时文件
                         os.remove(whole_path)
                         continue
             # 记录下载列表长度 下次从结束的地方下载
             imgs_download_len = imgs_downloads.__len__()
+
 
 if __name__ == '__main__':
     fetch_from_baidu().start_fetch()

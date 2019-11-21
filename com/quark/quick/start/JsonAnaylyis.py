@@ -1,9 +1,9 @@
-#json类型与各个类型间的转换
+# json类型与各个类型间的转换
 import json
-
 
 # convert dic to json and repalce
 import time
+
 
 # %y 两位数的年份表示（00-99）
 # %Y 四位数的年份表示（000-9999）
@@ -28,22 +28,23 @@ import time
 # %Z 当前时区的名称
 # %% %号本身
 
-class  JsonConverter():
+class JsonConverter():
     def dict_to_json(self):
         data = {
             'no': 1,
             'name': 'Runoob',
             'url': 'http://www.runoob.com'
         }
-        print("after convert to json 数据{}/类型{}".format(json.dumps(data),type(json.dumps(data))))
-        print("after convert to dict 数据{}/类型{}".format(json.loads(json.dumps(data)),type(json.loads(json.dumps(data)))))
+        print("after convert to json 数据{}/类型{}".format(json.dumps(data), type(json.dumps(data))))
+        print(
+            "after convert to dict 数据{}/类型{}".format(json.loads(json.dumps(data)), type(json.loads(json.dumps(data)))))
 
 
 class TimeConverter():
     def time_to_str(self):
         # print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-        print(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime()))
-        print(type(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime())))
+        print(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime()))
+        print(type(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())))
 
     def str_to_time(self):
         a = "Sat Mar 28 22:24:24 2016"
@@ -56,9 +57,9 @@ if __name__ == '__main__':
     # JsonConverter().dict_to_json()
     # 第一次调用返回运行的实际时间
     ctime = time.time()
-    print("第一次调用",time.clock(),ctime)
+    print("第一次调用", time.clock(), ctime)
     TimeConverter().str_to_time()
     TimeConverter().time_to_str()
     # 第二次以及以后的调用会返回和第一次调用之间的时间差 比time.time()更为精确
-    print("第二次调用",time.clock(),time.time()-ctime)
-    print("第三次调用",time.clock(),time.time()-ctime)
+    print("第二次调用", time.clock(), time.time() - ctime)
+    print("第三次调用", time.clock(), time.time() - ctime)

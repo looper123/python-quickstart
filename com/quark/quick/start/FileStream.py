@@ -1,25 +1,7 @@
-import doctest
-import glob
 import os
 import os.path
-import pprint
-import random
-import re
-import shutil
-import smtplib
-from datetime import date
-from functools import reduce
-from stat import S_IRUSR, S_IWUSR
-
-import pickle
-
 import sys
-
-import math
-import urllib
-
-import zlib
-from timeit import Timer
+from functools import reduce
 
 from com.quark.quick.start import HelloWorld
 
@@ -35,7 +17,6 @@ class MyClass:
 
     def f(self):
         return 'hello world'
-
 
 
 # 继承的类放在当前类的参数位置（继承类的类名），多继承就是多个参数
@@ -87,6 +68,7 @@ class Vector:
     def __add__(self, other):
         return Vector(self.a + other.a, self.b + other.b)
 
+
 # 判断是否为数字
 def is_number(a):
     try:
@@ -95,6 +77,7 @@ def is_number(a):
     except:
         pass
     return False
+
 
 def exception_handler():
     try:
@@ -196,39 +179,39 @@ if __name__ == '__main__':
     # print(glob.glob("*.py"))
     # stdout 被重定向后 可以使用stdin、stdout、stderr 来显示警告和错误信息
     # sys.stderr.write("Warning, log file not found starting a new one\n")
-    #程序终止
+    # 程序终止
     # sys.exit()
-    #re 模块为字符串处理提供了大量的工具  \b 在字符串中表示退格  在正则中表示单词间隔
+    # re 模块为字符串处理提供了大量的工具  \b 在字符串中表示退格  在正则中表示单词间隔
     # print(re.findall(r'\bf[a-z]*', 'which foot or hand fell fastest'))
     # math 提供了底层为c的函数库
     # print(math.log(1024,2))
     # print(random.choice(["test","test1","test2","test4","test5"]))
-    #访问网页
+    # 访问网页
     # for line in urllib.request.urlopen('https://www.cnblogs.com/liqforstudy/p/5652517.html'):
     #     line = line.decode('utf-8')  # Decoding the binary data to text.
     #     if 'test' in line or 'zero' in line:  # look for Eastern Time
     #      print(line)
-    #时间日期处理
+    # 时间日期处理
     # print(date.today())
     # print(date.today().strftime("%m-%d-%y. %d %b %Y is a %A on the %d day of %B."))
-    #date arithmetic support
+    # date arithmetic support
     # print((date.today()-date(1992,3,12)))
     # s = '压缩类测试压缩类测'
     # s_encode = s.encode("utf-8",errors='strict')
     # print(len(s_encode))
-    #后面的参数表示压缩度和压缩效率的数值 从0-9  压缩速度降低 但是压缩度上升 0 表示不压缩 -1 默认 取的是效率和度的适中值 6
+    # 后面的参数表示压缩度和压缩效率的数值 从0-9  压缩速度降低 但是压缩度上升 0 表示不压缩 -1 默认 取的是效率和度的适中值 6
     # 压缩时的数据量不宜过小 不然压缩后的值反而变大 原因：压缩的原理是把相同的值放在同一个位置，并同时给该位置一个标识符，
-    #当数据量过小时，多出的标识符占有的空间超过了减少的空间 从而导致文件反而变大了
+    # 当数据量过小时，多出的标识符占有的空间超过了减少的空间 从而导致文件反而变大了
     # s_com = zlib.compress(s_encode,-1)
     # print(len(s_com))
     # print(len(s_com))
     # print(zlib.decompress(zlib.compress(s_encode)).decode("utf-8",errors='strict'))
-    #代码性能测试类
-    #参数说明 stmt：执行语句  setup ：需要导入的模块 repeat ：重复测试的次数  number ：每个测试中执行语句的次数
+    # 代码性能测试类
+    # 参数说明 stmt：执行语句  setup ：需要导入的模块 repeat ：重复测试的次数  number ：每个测试中执行语句的次数
     # print(Timer('date.today()','from datetime import date').timeit(3))
     # print(is_number(341414))
     # reduce + lambda 表达式实现阶乘1*2*3
     # reduce 用法: 会对sequence(包括 列表 、元组、range())中的每一个元素依次进行lambda表达式中的操作
-    print(reduce(lambda x,y : x*y ,range(1,4)))
-    print(reduce(lambda x,y : x*y ,[1,2,3]))
-    print(reduce(lambda x,y : x*y ,(1,2,3)))
+    print(reduce(lambda x, y: x * y, range(1, 4)))
+    print(reduce(lambda x, y: x * y, [1, 2, 3]))
+    print(reduce(lambda x, y: x * y, (1, 2, 3)))

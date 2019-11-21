@@ -1,18 +1,15 @@
 import time
-import urllib
 import uuid
-from urllib import request
 from urllib.request import urlretrieve
 
-import os
 from selenium import webdriver
+
+
 # selenium 小用例
-from selenium.webdriver.common.keys import Keys
 
 
 # 爬取网页下所有图片
 class fetch_all():
-
     # name = "mySpider"
     request_url = "https://www.hua.com/flower/?r=0&pg=2"
     driver = webdriver.Firefox()
@@ -60,6 +57,5 @@ class fetch_all():
             return
 
 
-
 if __name__ == '__main__':
-     fetch_all().img_download()
+    fetch_all().img_download()

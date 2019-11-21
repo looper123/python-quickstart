@@ -1,8 +1,6 @@
 # python 基础教程 http://www.runoob.com/python3/python3-string.html
 # python3.0 以上版本无需指定编码 默认为utf-8
 # python中单双引号用法完全相同
-import doctest
-from timeit import Timer
 
 
 def function():
@@ -11,7 +9,7 @@ def function():
     print(R"你好python\n")
     print(r"你好python\n")
     # 在字符串前添加U 或者u 可以打印unicode 字符串
-    print(u"this is an unicode字符串")
+    print("this is an unicode字符串")
 
 
 def function1(name):

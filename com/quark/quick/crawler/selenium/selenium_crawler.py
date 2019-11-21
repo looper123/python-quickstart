@@ -24,14 +24,9 @@
 # send_keys(Keys.F1)
 # F1
 import time
-import urllib
-import uuid
-from urllib import request
 from urllib.request import urlretrieve
 
-import os
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 
 
 class quick_start:
@@ -159,21 +154,3 @@ class img_origin:
             "//div[@class='guess-newbaike-right']//div[@class='guess-newbaike-text-link']//a"
         ).get_attribute("href")
         driver.get(href)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

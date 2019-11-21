@@ -3,6 +3,7 @@
 # 火狐浏览器 driver下载 https://github.com/mozilla/geckodriver/releases
 # 常见错误  1 没有对应的driver    2 not capablity  驱动和浏览器版本不匹配
 
+import os
 # selenium键盘
 # send_keys(Keys.SPACE)
 # 空格键
@@ -28,7 +29,6 @@ import uuid
 from urllib import request
 from urllib.request import urlretrieve
 
-import os
 from selenium import webdriver
 # selenium 小用例
 from selenium.webdriver.common.keys import Keys
@@ -163,7 +163,6 @@ class img_origin:
 
 # 爬取网页下所有的图片
 class fetch_all():
-
     # name = "mySpider"
     request_url = "https://www.hua.com/flower/?r=0&pg=2"
     driver = webdriver.Firefox()
@@ -211,12 +210,7 @@ class fetch_all():
             return
 
 
-
-
-
-
-
- # 从百度图库下载 (小刮刮爬虫)
+# 从百度图库下载 (小刮刮爬虫)
 class fetch_from_baidu():
     name = "mySpider"
     print("请输入关键词")
@@ -268,14 +262,14 @@ class fetch_from_baidu():
                     try:
                         # 自带的下载方法 超时时间太长  （不推荐）
                         # urlretrieve(my_url, whole_path)
-                        response = urllib.request.urlopen(my_url,timeout=2)
+                        response = urllib.request.urlopen(my_url, timeout=2)
                         cat_img = response.read()
                         with open(whole_path, 'wb') as f:
                             f.write(cat_img)
                     except  Exception as e:
                         # 处理无效、超时链接
-                        print("下载出错"+str(e))
-                        #删除建立的临时文件
+                        print("下载出错" + str(e))
+                        # 删除建立的临时文件
                         os.remove(whole_path)
                         continue
             # 记录下载列表长度 下次从结束的地方下载
@@ -375,4 +369,3 @@ if __name__ == '__main__':
     # fetch_img_origin()
     #  fetch_all().img_download()
     fetch_from_baidu().start_fetch()
-
